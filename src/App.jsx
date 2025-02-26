@@ -12,12 +12,12 @@ const titoList = [
 function App() {
 
   const [filteredMovies,setFilteredMovies] = useState(titoList);
-  cost [genere,setGenere] = useState("")
+  const [genre,setGenre] = useState('')
 
 return(
   <>
   <div className="container">
-    <h1>
+    <h1>Lista Film</h1>
       <ul className="list-group">
         {
           filteredMovies.map((movie,index) =>{
@@ -29,7 +29,7 @@ return(
           })
         }
       </ul>
-    </h1>
+    
   </div>
   </>
 
