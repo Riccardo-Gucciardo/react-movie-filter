@@ -22,7 +22,7 @@ return(
         {
           filteredMovies.map((movie,index) =>{
             return(
-              <li className="list-gruop-item" key={movie.id}>
+              <li className="list-group-item" key={movie.id}>
                 {movie.title} {movie.genre}
               </li>
             )
