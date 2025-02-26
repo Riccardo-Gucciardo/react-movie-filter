@@ -15,7 +15,7 @@ function App() {
   const [filteredMovies,setFilteredMovies] = useState(titoList);
   const [genre,setGenre] = useState('')
 
-
+  // useEffect
 
 useEffect(() => {
   if(genre !== ''){
@@ -26,6 +26,9 @@ useEffect(() => {
     setFilteredMovies(titoList)
   }
 },[genre])
+
+
+// stampo la lista dei film
 
 return(
   <>
